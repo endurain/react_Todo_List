@@ -1,0 +1,43 @@
+body {
+ 
+  color: #61DAFB;
+  background: #4D4D4C;
+  font-family: 'Audiowide', cursive;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 5fr));
+}
+
+h5 {
+	color: #8C40CD;
+}
+
+#main {
+  width: 500px;
+  margin: auto;
+  text-align: left;
+  color: #030509;
+}
+
+ul>li:hover {
+  background-color: #F5F5F5;
+}
+
+ul {
+  background-color: rgba(105,205,200,.5);
+  padding: 15px;
+  font-size: 25px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+li {
+	padding: 10px;
+	list-style: none;
+}
+
+input, button {
+	padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
